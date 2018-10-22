@@ -11,4 +11,5 @@ license: MIT
 dependencies:
   mongo:
     github: sam0x17/mongo.cr
-    branch: master
+    commit: e14488246b5c0d9e5f1a3ca4c257936110044b43 # branch 0.25.1
+

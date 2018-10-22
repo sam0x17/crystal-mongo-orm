@@ -66,7 +66,7 @@ class Mongo::ORM::Document
     set_attributes(args.to_h)
   end
 
-  def initialize(args : Hash(Symbol | String, String | JSON::Type))
+  def initialize(args : Hash(Symbol | String, String | JSON::Any))
     set_attributes(args)
   end
 
